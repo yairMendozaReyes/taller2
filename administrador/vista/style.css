@@ -1,0 +1,49 @@
+body {
+    padding-top: 56px; /* Height of navbar */
+}
+.container-fluid {
+    margin-top: 20px;
+}
+.message {
+    padding: 20px;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.sidebar {
+    background-color: #343a40;
+    color: white;
+    height: 100vh;
+    position: fixed;
+    padding-top: 56px;
+}
+.sidebar a {
+    padding: 16px;
+    color: white;
+    display: block;
+}
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.centered-card {
+    margin: 0 auto;
+    float: none;
+    max-width: 400px; /* Ajusta el ancho máximo según tus necesidades */
+    border: 1px solid #ccc; /* Cambia el color y estilo del borde según tus preferencias */
+    border-radius: 10px; /* Añade esquinas redondeadas al borde */
+    padding: 20px; /* Añade un espacio interno al contenido de la tarjeta */
+}
+
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1030; /* Valor por defecto de la barra de navegación en Bootstrap es 1030 */
+}
+
+.content-container {
+    margin-top: 56px; /* Ajusta según el tamaño del mensaje fijo y la barra de navegación fija */
+}

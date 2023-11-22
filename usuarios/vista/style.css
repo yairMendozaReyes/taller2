@@ -1,0 +1,30 @@
+body {
+    padding-top: 56px; /* Height of navbar */
+}
+.container-fluid {
+    margin-top: 20px;
+}
+.message {
+    padding: 20px;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.sidebar {
+    background-color: #343a40;
+    color: white;
+    height: 100vh;
+    position: fixed;
+    padding-top: 56px;
+}
+.sidebar a {
+    padding: 16px;
+    color: white;
+    display: block;
+}
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
